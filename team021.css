@@ -1,0 +1,32 @@
+.body {
+    font-family: "Microsoft JhengHei", sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.timer {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.input[type="datetime-local"] {
+    padding: 8px;
+    font-size: 1rem;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 0 10px;
+    cursor: pointer;
+}
