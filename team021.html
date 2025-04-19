@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>計時器</title>
+<!--    串聯CSS的檔案-->
     <link rel="stylesheet" href="team021.css">
 </head>
 <body>
 <h1>計時器</h1>
+<!-- 顯示倒數時間區域（初始為 00:00:00）-->
 <div id="timer">00:00:00</div>
 
 <div class="input-row">
     <label for="datetime">設定目標日期及時間</label>
+<!--    時間輸入欄，使用 HTML5 元素，帶日期選擇器-->
     <input type="datetime-local" id="datetime" placeholder="yyyy-mm-dd --:-- --">
+<!--    開始 / 暫停 / 繼續 按鈕（動態變化文字）-->
     <button id="start">開始</button>
+<!--    清除時間與回到初始狀態-->
     <button id="reset">重置</button>
 </div>
-
+<!--串聯JS的檔案-->
 <script src="team021.js"></script>
 </body>
 </html>

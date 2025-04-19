@@ -1,41 +1,44 @@
+/*版面布局與視覺風格*/
+/*設定整體字型、居中對齊、白色背景*/
 body {
     font-family: "Microsoft JhengHei", sans-serif;
     text-align: center;
     padding: 60px;
     background-color: #fff;
 }
-
+/*計時器的字型、顏色、大小*/
 h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-}
-
+/*計時器字變大、下方有空隙*/
 #timer {
     font-size: 3rem;
     margin-bottom: 30px;
 }
-
+/*日期欄與按鈕並排、之間有距離*/
 .input-row {
     display: inline-flex;
     align-items: center;
     gap: 6px;
 }
 
+/*日期欄的字型、顏色、大小*/
 label {
     font-size: 1rem;
 }
 
+/*日期欄的字型、顏色、大小*/
 input[type="datetime-local"] {
     font-size: 1rem;
     padding: 5px;
     width: 230px;
     text-align: center;
 }
-
+/*模仿圖 2-1、2-3 中按鈕樣式的灰邊淺底風格*/
 button {
     font-size: 1rem;
     padding: 6px 12px;
     background-color: #f1f1f1;
     border: 1px solid #999;
     cursor: pointer;
-}
+}}
