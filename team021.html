@@ -2,19 +2,16 @@
 <html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
-    <title>計時器前端設計</title>
+    <title>計時器</title>
     <link rel="stylesheet" href="team021.css">
 </head>
 <body>
 <h1>計時器</h1>
 <div id="timer">00:00:00</div>
 
-<div>
+<div class="input-row">
     <label for="datetime">設定目標日期及時間</label>
-    <input type="datetime-local" id="datetime">
-</div>
-
-<div class="buttons">
+    <input type="datetime-local" id="datetime" placeholder="yyyy-mm-dd --:-- --">
     <button id="start">開始</button>
     <button id="reset">重置</button>
 </div>
