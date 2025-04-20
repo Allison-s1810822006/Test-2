@@ -10,6 +10,7 @@ body {
 h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+}
 /*計時器字變大、下方有空隙*/
 #timer {
     font-size: 3rem;
@@ -41,4 +42,4 @@ button {
     background-color: #f1f1f1;
     border: 1px solid #999;
     cursor: pointer;
-}}
+}
